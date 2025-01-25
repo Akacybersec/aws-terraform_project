@@ -14,19 +14,23 @@ Ensure you have the following installed and configured on your local machine:
 
 ### Clone the Repository
 Clone the project repository to your local machine:
-```bash
+
+
 git clone https://github.com/Akacybersec/Terraform_aws_project.git
 cd Terraform_aws_project
 
-Set Up Environment Variables
-Export the required environment variables for Terraform:
+### Set Up Environment Variables
+### Export the required environment variables for Terraform:
 
-Alternatively, configure your AWS credentials using the aws configure command:
+#### Alternatively, configure your AWS credentials using the aws configure command:
 
-Terraform Initialization
-Run the following command to initialize Terraform and download necessary providers:
+### Terraform Initialization
+#### Run the following command to initialize Terraform and download necessary providers:
+
 terraform init
+
 terraform plan
+
 terraform deploy -auto-approve
 
-Access the Deployed Application
+### Access the Deployed Application
