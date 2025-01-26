@@ -61,3 +61,35 @@ Please remember to destroy the resources to avoid incuring costs when your resou
 ``` 
 terraform  destroy  -auto-approve
 ```
+
+### SERVICES USED
+AWS Identity and Access Management (IAM)
+
+Securely manage user identities and control access to AWS services and resources.
+Amazon Virtual Private Cloud (VPC)
+
+Create and manage a logically isolated virtual network for launching AWS resources.
+Amazon Elastic Compute Cloud (EC2)
+
+Provides scalable and customizable virtual servers to meet your computing needs.
+Amazon Relational Database Service (RDS)
+
+A fully managed cloud database service for easy operation and scaling of relational databases.
+Amazon Simple Storage Service (S3)
+
+Highly scalable object storage with robust data availability, security, and performance.
+Amazon Elastic File System (EFS)
+
+Serverless, elastic file storage that automatically scales to meet demand.
+AWS Systems Manager (SSM)
+
+A centralized operations hub for managing AWS applications and resources securely.
+AWS Secrets Manager
+
+Simplifies the management, retrieval, and rotation of secrets like database credentials, API keys, and tokens.
+AWS Certificate Manager (ACM)
+
+Easily provision and manage SSL/TLS certificates for your AWS resources.
+Amazon CloudFront
+
+A high-performance content delivery network (CDN) that enhances security and speeds up content delivery.
